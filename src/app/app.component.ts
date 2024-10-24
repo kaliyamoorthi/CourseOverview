@@ -10,12 +10,14 @@ import { CourseOutcomeAttainmentComponent } from './components/course-outcome-at
 import { OverallCourseOutcomeAttainmentComponent } from './components/overall-course-outcome-attainment/overall-course-outcome-attainment.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SkeletonComponent } from './components/skeleton/skeleton.component';
+import { PeoComponent } from './peo/peo.component';
+import { ProgramoutcomesComponent } from './programoutcomes/programoutcomes.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, CommonModule, SidebarComponent,
-    HeaderComponent
+    HeaderComponent,PeoComponent,ProgramoutcomesComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

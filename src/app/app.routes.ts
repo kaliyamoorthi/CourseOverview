@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProgramsComponent } from './components/programs/programs.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { PeoComponent } from './peo/peo.component';
 
 export const routes: Routes = [
     { path: 'dashboard', component: DashboardComponent },
